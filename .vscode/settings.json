@@ -1,0 +1,20 @@
+{
+  "remote.autoForwardPortsFallback": 0,
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "mysql",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "cweb",
+      "database": "cweb",
+      "username": "root",
+      "password": "root"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Node24 + MySQL",
+
+  "dockerComposeFile": "docker-compose.yml",
+
+  "service": "dev",
+
+  "workspaceFolder": "/workspace",
+
+  "runServices": [
+    "dev",
+    "mysql"
+  ],
+
+  "shutdownAction": "stopCompose",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.js-debug",
+        "PostMate-lab.postmate",
+        "dbaeumer.vscode-eslint",
+        "ecmel.vscode-html-css",
+        "htmlhint.vscode-htmlhint",
+        "oderwat.indent-rainbow",
+        "ritwickdey.liveserver",
+        "esbenp.prettier-vscode",
+        "stylelint.vscode-stylelint",
+        "jkjustjoshing.vscode-text-pastry"		
+      ]
+    }
+  }
+}
